@@ -1,0 +1,33 @@
+.shipto_container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  margin-top: 3%;
+}
+
+.shipto_header {
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 1%;
+}
+
+.to_address {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500;
+  margin-top: 4%;
+  margin-left: -15%;
+}
+
+.to_address p {
+  margin-bottom: -7px;
+}
+.to_address h6 {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.to_address h5 {
+  font-weight: bolder;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}

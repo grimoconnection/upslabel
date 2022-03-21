@@ -1,0 +1,19 @@
+.address_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button_container {
+  width: 85%;
+  text-align: right;
+}
+
+.button {
+  padding: 0.5em 1em;
+  font-size: 1.5vw;
+  border-radius: 20px;
+}
+
+.button:active {
+  transform: scale(0.9);
+}

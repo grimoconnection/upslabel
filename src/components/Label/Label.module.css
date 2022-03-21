@@ -1,0 +1,107 @@
+.container {
+  width: 450px;
+  height: 730px;
+  text-align: center;
+}
+
+.label {
+  width: 450px;
+  height: 730px;
+  margin-left: 5%; /*check*/
+  margin-top: 1%;
+  border: 1px solid black;
+}
+
+.barcode_container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+}
+
+.postalcode_container {
+  display: grid;
+  grid-template-rows: 0.5fr, 2fr;
+  border-left: 1px solid black;
+}
+
+.postalcode {
+  padding-top: 1%;
+  margin-left: -80px;
+}
+
+.postalcode h5 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.postalbarcode_container {
+  height: 70px;
+  overflow: hidden;
+  margin-top: -15px;
+  margin-left: -10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.service {
+  text-align: left;
+  padding-left: 1%;
+  border: 1px solid black;
+  padding: 1%;
+}
+
+.tracking_container {
+  border-bottom: 4px solid black;
+}
+
+.ref_container {
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.ref_container p {
+  font-size: 10px;
+  margin-bottom: -3%;
+}
+
+.refbarcode_container {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.province {
+  margin-top: 50px;
+}
+
+.province h3 {
+  font-weight: bolder;
+}
+
+.return {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  border: 1px solid black;
+}
+
+.edi {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.edi h5 {
+  font-weight: bolder;
+}

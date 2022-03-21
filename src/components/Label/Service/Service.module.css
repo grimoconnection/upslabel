@@ -1,0 +1,12 @@
+.service_wrapper {
+  display: grid;
+  grid-template-columns: 4fr 0.5fr;
+}
+.service_wrapper h4 {
+  font-weight: bolder;
+  margin-bottom: -5px;
+}
+
+.service_wrapper p {
+  margin-bottom: 0;
+}
