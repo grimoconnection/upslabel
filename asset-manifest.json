@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/upslabel.git/static/css/main.39648ca2.css",
-    "main.js": "/upslabel.git/static/js/main.778db1a0.js",
+    "main.css": "/upslabel.git/static/css/main.88ac4399.css",
+    "main.js": "/upslabel.git/static/js/main.c56f8121.js",
     "index.html": "/upslabel.git/index.html",
-    "main.39648ca2.css.map": "/upslabel.git/static/css/main.39648ca2.css.map",
-    "main.778db1a0.js.map": "/upslabel.git/static/js/main.778db1a0.js.map"
+    "main.88ac4399.css.map": "/upslabel.git/static/css/main.88ac4399.css.map",
+    "main.c56f8121.js.map": "/upslabel.git/static/js/main.c56f8121.js.map"
   },
   "entrypoints": [
-    "static/css/main.39648ca2.css",
-    "static/js/main.778db1a0.js"
+    "static/css/main.88ac4399.css",
+    "static/js/main.c56f8121.js"
   ]
 }
