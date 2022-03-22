@@ -1,5 +1,4 @@
 import React from "react";
-import { barcodeStoreActions } from "../../store/barcodeStore";
 import { useSelector } from "react-redux";
 import classes from "./Refbarcode.module.css";
 

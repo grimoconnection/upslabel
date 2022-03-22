@@ -18,12 +18,12 @@ function App() {
   const dispatch = useDispatch();
   const code = useSelector((state) => state.info.barcode);
 
-  React.useEffect(async () => {
+  React.useEffect(() => {
     dispatch(getMaxi(code.maxicode))
       .then(() => dispatch(getPostal(code.postalcode)))
       .then(() => dispatch(getTracking(code.tracking)))
       .then(() => dispatch(getReference(code.reference)));
-  }, [code]);
+  }, [code, dispatch]);
   return (
     <div className={classes.main}>
       <div className={classes.header_container}>
