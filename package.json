@@ -1,7 +1,7 @@
 {
   "name": "label",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://grimoconnection.github.io/upslabel.git",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
