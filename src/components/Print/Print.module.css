@@ -6,6 +6,7 @@
 .button_container {
   width: 100%;
   text-align: center;
+  margin-top: 10%;
 }
 
 .button {
@@ -16,4 +17,8 @@
 
 .button:active {
   transform: scale(0.9);
+}
+
+.label_container {
+  margin-top: 10%;
 }
